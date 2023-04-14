@@ -2,7 +2,7 @@ version: '2'
 
 services:
   front-end:
-    image: viditbits/scalable-assignment-frontend-image:latest
+    image: weaveworksdemos/front-end:0.3.12
     hostname: front-end
     restart: always
     cap_drop:
