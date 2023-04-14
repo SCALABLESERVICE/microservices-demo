@@ -74,7 +74,7 @@ frontend:
     replicas: 1
     image:
         repo: weaveworksdemos/front-end
-        tag: latest
+        tag: 0.3.12
     resources:
         limits:
             cpu: 300m
